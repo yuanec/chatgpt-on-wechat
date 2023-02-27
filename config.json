@@ -1,5 +1,5 @@
 {
-  "open_ai_api_key": "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",
+  "open_ai_api_key": "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",
   "wechaty_puppet_service_token": "WECHATY PUPPET SERVICE TOKEN",
   "single_chat_prefix": ["bot", "@bot"],
   "single_chat_reply_prefix": "[bot] ",
