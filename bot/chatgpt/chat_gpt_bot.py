@@ -35,7 +35,8 @@ class Chatbot:
         """
         Initialize Chatbot with API key (from https://platform.openai.com/account/api-keys)
         """
-        openai.api_key = api_key or os.environ.get("OPENAI_API_KEY")
+        # openai.api_key = api_key or os.environ.get("OPENAI_API_KEY")
+        openai.api_key = api_key
         self.conversations = Conversation()
         self.prompt = Prompt(buffer=buffer)
 
